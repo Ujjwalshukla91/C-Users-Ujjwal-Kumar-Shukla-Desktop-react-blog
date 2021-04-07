@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import logo from './assets/logo192.png';
 import './App.css';
 
 /* class RegularClass {}
@@ -43,6 +43,7 @@ toggleDisplayBio(){
           </div>
           ) : (
             <div>
+              <img src={logo} />
               <button onClick={this.toggleDisplayBio}>Read more</button>
             </div>
           )
