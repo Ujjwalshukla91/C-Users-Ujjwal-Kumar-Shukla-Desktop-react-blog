@@ -1,0 +1,22 @@
+.home {
+    min-height:100vh;
+    background-color: rgb(47, 46, 70);
+    color:white;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.compo {
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(153 198 42);;
+    border-radius: 45px;
+    margin-top: 20px;
+}
+.compo.percent{
+    text-align: center;
+    background-color: rgb(153 198 42);
+}
+.compo.percent.product{
+    
+}
